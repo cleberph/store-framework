@@ -20,8 +20,7 @@
 
   "flex-layout.col#left": {
     "children": [
-      "product-images",
-      "flex-layout.row#qty-sku"
+      "product-images"
     ]
   },
   "flex-layout.row#qty-sku": {
@@ -39,7 +38,8 @@
     "children": [       
       "product-name",
       "product-identifier.product",
-      "product-price",      
+      "product-price",
+      "flex-layout.row#qty-sku",     
        "shipping-simulator",
        "buy-button"
     ]
