@@ -12,6 +12,11 @@
  },
  
  "search-result-layout.desktop":{
+
+  "props": {
+    "preventRouteChange": true
+  },
+
    "children": [       
   "breadcrumb.search",
   "search-title.v2",
