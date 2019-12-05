@@ -13,8 +13,7 @@
     },
     "children": [
       "flex-layout.col#left",
-      "flex-layout.col#right",      
-      "flex-layout.row#qty-sku"
+      "flex-layout.col#right"    
       
     ]
   },
@@ -36,10 +35,13 @@
       "verticalAlign": "middle",
       "preventVerticalStretch":true
     },
+
     "children": [       
       "product-name",
       "product-identifier.product",
       "product-price",
+        
+      "flex-layout.row#qty-sku",
        "buy-button"
     ]
   },
