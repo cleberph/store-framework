@@ -34,7 +34,8 @@
 "flex-layout.row#results": {
   "children": [
     "flex-layout.col#filter",
-    "flex-layout.col#search"
+    "flex-layout.col#search",
+    "flex-layout.right#results"
   ]
 },
 "flex-layout.col#filter":
@@ -46,7 +47,12 @@
 },
 "gallery": {
   "blocks": ["product-summary.shelf"]
-}
-
+},
+"flex-layout.right#results": {
+  "children": [
+    "filter-navigator.v3",
+    "search-content"
+  ]
+},
 
 }
