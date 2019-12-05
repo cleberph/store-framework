@@ -22,7 +22,7 @@
     "children": [
       "product-images",
       "sku-selector",
-      "product-quantity",
+      "product-quantity"
     ]
   },
 
