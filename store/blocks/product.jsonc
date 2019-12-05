@@ -20,7 +20,9 @@
 
   "flex-layout.col#left": {
     "children": [
-      "product-images"
+      "product-images",
+      "sku-selector",
+      "product-quantity",
     ]
   },
 
@@ -35,8 +37,7 @@
       "product-identifier.product",
       "product-price",  
       
-      "sku-selector",
-      "product-quantity", 
+       
       "shipping-simulator",
        "buy-button"
     ]
